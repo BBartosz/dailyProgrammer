@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="SBT: net.sourceforge.htmlcleaner:htmlcleaner:2.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/net.sourceforge.htmlcleaner/htmlcleaner/jars/htmlcleaner-2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.ivy2/cache/net.sourceforge.htmlcleaner/htmlcleaner/docs/htmlcleaner-2.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/net.sourceforge.htmlcleaner/htmlcleaner/srcs/htmlcleaner-2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
