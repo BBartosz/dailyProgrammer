@@ -55,7 +55,7 @@ class Hangman extends HangPicture{
 
   def words(): List[Word] = {
     val words:List[String] =
-      Source.fromFile("/home/bartek/idea_projects/ch188/src/main/scala/words.txt").mkString.split('\n').toList
+      Source.fromFile("src/main/scala/words.txt").mkString.split('\n').toList
 
     words.map(w => new Word(w.toLowerCase.replace("'", "")))
   }

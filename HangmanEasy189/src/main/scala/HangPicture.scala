@@ -1,5 +1,5 @@
 class HangPicture {
-  def hangBuildStatus: List[String] = {
+  val hangBuildStatus: List[String] = {
     List(
     """
     |------------------
