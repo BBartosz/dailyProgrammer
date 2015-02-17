@@ -12,9 +12,9 @@ object MyPriorityQueue {
 
   def clear(): List[Any] = Nil
 
-  protected def ins[A](i: A, ts: List[A]): List[A] = ts match {
-    case Nil => List(i)
-    case tp::ts => i::tp::ts
+  protected def ins[A](elem: A, queue: List[A]): List[A] = queue match {
+    case Nil => List(elem)
+    case tp::ts => elem::tp::ts
   }
 }
 
